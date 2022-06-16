@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+* Pizza Store Website built with React and Firebase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+// Still in Development // :) chao chao!
 
 ## Available Scripts
 
