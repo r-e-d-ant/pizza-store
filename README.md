@@ -1,6 +1,7 @@
 * Pizza Store Website built with React and Firebase
 
-// Still in Development // :) chao chao!
+* // Still in Development // :)
+* ciao ciao!
 
 ## Available Scripts
 
