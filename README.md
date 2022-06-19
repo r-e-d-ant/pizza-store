@@ -3,7 +3,14 @@
 * Pizza Store Website built with React and Firebase
 
 * // Still in Development // :)
+
+* Check it's static version <a href="">here</a>
+
 * ciao ciao!
+
+--------------------------
+
+![Screen Shot 2022-06-19 at 4 40 58 PM](https://user-images.githubusercontent.com/66163130/174486667-79726d66-85d6-4262-9894-a3c8b1a1286f.png)
 
 ## Available Scripts
 
