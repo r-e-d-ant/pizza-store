@@ -4,7 +4,7 @@
 
 * // Still in Development // :)
 
-* Check it's static version <a href="">here</a>
+* Check it's static version <a href="https://github.com/r-e-d-ant/pizza-store-static-v">here</a>
 
 * ciao ciao!
 
