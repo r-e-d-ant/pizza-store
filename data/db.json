@@ -4,6 +4,7 @@
         "id" : 0,
         "image": "https://raw.githubusercontent.com/r-e-d-ant/pizza-store-static-v/master/assets/images/product1.webp",
         "name": "Pizza Marinara",
+        "price": "12",
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada tempus elit id facilisis. Nullam a diam sit amet ex facilisis aliquet et eget tellus. Curabitur id porttitor tellus. Sed ac consequat tellus. Sed consequat neque nec ex placerat ultricies.",
         "toppings": ["Tomatoes", "Garlic", "Oregano", "Extra virgin olive oil"],
         "stock": 7
@@ -14,6 +15,7 @@
             "id" : 0,
             "image": "https://raw.githubusercontent.com/r-e-d-ant/pizza-store-static-v/master/assets/images/product1.webp",
             "name": "Pizza Marinara",
+            "price": "12",
             "toppings": ["Tomatoes", "Garlic", "Oregano", "Extra virgin olive oil"]
         }
     ]

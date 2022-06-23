@@ -1,8 +1,13 @@
 
 import { Link } from 'react-router-dom';
 import NavBar from "./NavBar";
+import useFetch from "./useFetch";
+import ProductList from "./ProductList";
 
 const Home = () => {
+
+    const { data: products, isPending, error } = useFetch('http://localhost:8800/pizzas');
+
     return (
         <main>
             <section className="section hero-section container">
@@ -26,6 +31,10 @@ const Home = () => {
                     <i className='bx bxl-facebook'></i>
                 </div>
             </section>
+
+            {error && <div>{ error }</div>}
+            {isPending && <div>Loading...</div>}
+            {products && <ProductList products={products} />}
         </main>
     );
 }
