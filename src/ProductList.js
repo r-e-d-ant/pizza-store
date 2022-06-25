@@ -1,9 +1,7 @@
 
-import { Link } from 'react-router-dom';
-
-const ProductList = ({products}) => {
+const ProductList = ({ products }) => {
     return ( 
-        <section className="section products-section container">
+        <div>
             <h2 className="section-title">The best slice at the best price.</h2>
             <div className="products">
                 {products.map((product) => (
@@ -31,15 +29,7 @@ const ProductList = ({products}) => {
                     </div>
                 ))}
             </div>
-
-            <div className="home-banner">
-                <div className="sec-call-to-action_container">
-                    <h5 className="sec-call-to-action-text">Try our pie and give joy to your stomach with tastiest Pizza ever</h5>
-                    <Link to="/products"><button className="btn sec-call-to-action-btn white-bd">See more products</button></Link>
-                </div>
-                <img data-src="assets/images/home_banner.webp" alt="" className="home-banner-img lazy"></img>
-            </div>
-        </section>
+        </div>
      );
 }
  

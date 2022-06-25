@@ -31,10 +31,18 @@ const Home = () => {
                     <i className='bx bxl-facebook'></i>
                 </div>
             </section>
-
-            {error && <div>{ error }</div>}
-            {isPending && <div>Loading...</div>}
-            {products && <ProductList products={products} />}
+            <section className="section products-section container">
+                {error && <div>{ error }</div>}
+                {isPending && <div>Loading...</div>}
+                {products && <ProductList products={ products } />}
+                <div className="home-banner">
+                    <div className="sec-call-to-action_container">
+                        <h5 className="sec-call-to-action-text">Try our pie and give joy to your stomach with tastiest Pizza ever</h5>
+                        <Link to="/products"><button className="btn sec-call-to-action-btn white-bd">See more products</button></Link>
+                    </div>
+                    <img data-src="assets/images/home_banner.webp" alt="" className="home-banner-img lazy"></img>
+                </div>
+            </section>
         </main>
     );
 }
