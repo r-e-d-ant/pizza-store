@@ -16,7 +16,7 @@ const Footer = () => {
                     </div>
                 </div>
         
-                <div className="footer-logo"><img src="assets/images/logo.svg" alt=""></img></div>
+                <div className="footer-logo"><img src="/images/logo.svg" alt=""></img></div>
             </div>
             <div className="lower-footer container">
                 <p className="copyright white-clr">copyright © 2022 πzza</p>

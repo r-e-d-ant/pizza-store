@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const NoHomeNavBar = () => {
     return ( 
         <nav className="section header container header-no-home">
-            <div className="logo"><img src="assets/images/logo.svg" alt=""></img></div>
+            <div className="logo"><img src="/images/logo.svg" alt=""></img></div>
             <nav className="nav-bar">
                 <ul className="nav-items">
                     <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>

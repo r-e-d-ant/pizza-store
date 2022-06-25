@@ -30,7 +30,7 @@ const Products = () => {
                     <img data-src="assets/images/products_banner.webp" alt="" className="home-banner-img lazy"></img>
                 </div>
                 <section className="section products-section">
-                    {products && <ProductList products={ products } />}
+                    {/* {products && <ProductList products={ products } />} */}
                 </section>
             </section>
         </div>

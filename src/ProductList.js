@@ -2,7 +2,6 @@
 const ProductList = ({ products }) => {
     return ( 
         <div>
-            <h2 className="section-title">The best slice at the best price.</h2>
             <div className="products">
                 {products.map((product) => (
                     <div className="product" key={ product.id }>

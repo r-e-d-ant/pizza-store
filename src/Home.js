@@ -21,7 +21,7 @@ const Home = () => {
                     </div>
                     <div className="call-to-action-container">
                         <h3 className="white-clr">Try our pie</h3>
-                        <img src="assets/images/pizza_arrow.svg" className="pizza-arrow image" alt=""></img>
+                        <img src="/images/pizza_arrow.svg" className="pizza-arrow image" alt=""></img>
                         <Link to="/products"><button className="call-to-action-btn btn white-bd">Order now</button></Link>
                     </div>
                 </div>
@@ -32,6 +32,7 @@ const Home = () => {
                 </div>
             </section>
             <section className="section products-section container">
+                <h2 className="section-title">The best slice at the best price.</h2>
                 {error && <div>{ error }</div>}
                 {isPending && <div>Loading...</div>}
                 {products && <ProductList products={ products } />}
@@ -40,7 +41,7 @@ const Home = () => {
                         <h5 className="sec-call-to-action-text">Try our pie and give joy to your stomach with tastiest Pizza ever</h5>
                         <Link to="/products"><button className="btn sec-call-to-action-btn white-bd">See more products</button></Link>
                     </div>
-                    <img data-src="assets/images/home_banner.webp" alt="" className="home-banner-img lazy"></img>
+                    <img data-src="/images/home_banner.webp" alt="" className="home-banner-img lazy"></img>
                 </div>
             </section>
         </main>
