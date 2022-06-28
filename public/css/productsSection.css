@@ -8,7 +8,7 @@
     gap: .2rem;
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
 }
-.products-page {
+.products {
     row-gap: 1.5rem;
 }
 @media screen and (min-width: 1062px) {
@@ -16,7 +16,7 @@
         gap: 0;
         justify-content: space-between;
     }
-    .products-page {
+    .products {
         row-gap: 1.5rem;
     }
 }

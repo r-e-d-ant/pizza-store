@@ -23,9 +23,8 @@ const Products = () => {
             {isPending && <div>Loading...</div>}
 
             <section className="section products-section container">
-                <div className="products products-page">
-                    {products && <ProductList products={ products } />}
-                </div>
+                {products && <ProductList products={ products } />}
+                
                 <div className="home-banner">
                     <img src="assets/images/products_banner.webp" alt="" className="home-banner-img lazy"></img>
                 </div>
