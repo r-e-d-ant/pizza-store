@@ -1,14 +1,17 @@
 
+import { Link } from "react-router-dom";
+
 const ProductList = ({ products }) => {
+
     return ( 
         <div>
             <div className="products">
-                {products.map((product) => (
+                {products.map((product, index) => (
                     <div className="product" key={ product.id }>
-                        <img data-src={ product.image } alt={ product.name } className="lazy"></img>
+                        <Link to={`/products/${product.id}`}><img src={ product.image } alt={ product.name } className="productImg" loading="lazy"></img></Link>
                         <div className="info">
                             <div className="name-price">
-                                <h3 className="name">{ product.name }</h3>
+                            <Link to={`/products/${product.id}`}><h3 className="name">{ product.name }</h3></Link>
                                 <h3 className="price">{ product.price }</h3>
                             </div>
                             <div className="toppings">

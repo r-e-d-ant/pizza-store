@@ -29,7 +29,7 @@
     width: 100%;
     border-radius: 5px 5px 0px 0px;
 }
-.lazy {
+.productImg {
     background-color: #ffab76;
     width: 100%;
 }
@@ -197,7 +197,7 @@
     .product .image {
         width: 18rem;
     }
-    .lazy {
+    .productImg {
         width: 18rem;
     }
     .info {
@@ -212,7 +212,7 @@
     .product .image {
         width: 20rem;
     }
-    .lazy {
+    .productImg {
         width: 20rem;
     }
     .info {

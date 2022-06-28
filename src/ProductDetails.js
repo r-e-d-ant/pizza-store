@@ -15,10 +15,9 @@ const ProductDetails = () => {
 
             { isError && <div>{ isError }</div>}
             { pending && <div>Loading...</div>}
-
-            <section className="section product-details-section container">
-                <img src="assets/images/product3.webp" alt="" className="product-det-image"></img>
-                { product && (
+            { product && (
+                <section className="section product-details-section container">
+                    <img src={product.image} alt={product.name} className="product-det-image"></img>
                     <div className="product-details">
                         <h2 className="det-name">{product.name}</h2>
                         <p className="det-desc">{ product.description }</p>
@@ -36,8 +35,8 @@ const ProductDetails = () => {
                             <button className="btn add-to-cart-btn">Add to cart</button>
                         </div>
                     </div>
-                )}
-            </section>
+                </section>
+            )}
             <section className="section products-section container">
                 <h2 className="section-title">Similar products</h2>
                 {error && <div>{ error }</div>}

@@ -41,7 +41,7 @@ const Home = () => {
                         <h5 className="sec-call-to-action-text">Try our pie and give joy to your stomach with tastiest Pizza ever</h5>
                         <Link to="/products"><button className="btn sec-call-to-action-btn white-bd">See more products</button></Link>
                     </div>
-                    <img data-src="/images/home_banner.webp" alt="" className="home-banner-img lazy"></img>
+                    <img src="/images/home_banner.webp" alt="" className="home-banner-img" loading='lazy'></img>
                 </div>
             </section>
         </main>
