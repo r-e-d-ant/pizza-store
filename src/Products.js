@@ -23,13 +23,13 @@ const Products = () => {
             {isPending && <div>Loading...</div>}
 
             <section className="section products-section container">
-                {products && <ProductList products={ products } />}
+                {products && <ProductList products={ products.slice(0, 6) } />}
                 
                 <div className="home-banner">
-                    <img src="assets/images/products_banner.webp" alt="" className="home-banner-img lazy"></img>
+                    <img src="/images/products_banner.webp" alt="" className="home-banner-img lazy"></img>
                 </div>
                 <section className="section products-section">
-                    {/* {products && <ProductList products={ products } />} */}
+                {products && <ProductList products={ products.slice(6, 9) } />}
                 </section>
             </section>
         </div>

@@ -35,7 +35,7 @@ const Home = () => {
                 <h2 className="section-title">The best slice at the best price.</h2>
                 {error && <div>{ error }</div>}
                 {isPending && <div>Loading...</div>}
-                {products && <ProductList products={ products } />}
+                {products && <ProductList products={ products.slice(0, 3) } />}
                 <div className="home-banner">
                     <div className="sec-call-to-action_container">
                         <h5 className="sec-call-to-action-text">Try our pie and give joy to your stomach with tastiest Pizza ever</h5>
