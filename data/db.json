@@ -1,0 +1,94 @@
+{
+    "pizzas": [
+      {
+        "id" : 0,
+        "image": "https://raw.githubusercontent.com/r-e-d-ant/pizza-store-static-v/master/assets/images/product1.webp",
+        "name": "Pizza Marinara",
+        "price": 8,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada tempus elit id facilisis. Nullam a diam sit amet ex facilisis aliquet et eget tellus. Curabitur id porttitor tellus. Sed ac consequat tellus. Sed consequat neque nec ex placerat ultricies.",
+        "toppings": ["Tomatoes", "Garlic", "Oregano", "Extra virgin olive oil"],
+        "stock": 7
+      },
+      {
+        "id" : 1,
+        "image": "https://raw.githubusercontent.com/r-e-d-ant/pizza-store-static-v/master/assets/images/product2.webp",
+        "name": "Pizza Margherita",
+        "price": 10,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada tempus elit id facilisis. Nullam a diam sit amet ex facilisis aliquet et eget tellus. Curabitur id porttitor tellus. Sed ac consequat tellus. Sed consequat neque nec ex placerat ultricies.",
+        "toppings": ["Tomatoes", "Sliced mozzarella", "Basil", "Extra virgin olive oil"],
+        "stock": 4
+      },
+      {
+        "id" : 2,
+        "image": "https://raw.githubusercontent.com/r-e-d-ant/pizza-store-static-v/master/assets/images/product3.webp",
+        "name": "St. Louis Pizza",
+        "price": 12,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada tempus elit id facilisis. Nullam a diam sit amet ex facilisis aliquet et eget tellus. Curabitur id porttitor tellus. Sed ac consequat tellus. Sed consequat neque nec ex placerat ultricies.",
+        "toppings": ["Tomatoes", "Provel cheese", "Oregano", "Sweeter tomato sauce"],
+        "stock": 14
+      },
+      {
+        "id" : 3,
+        "image": "https://raw.githubusercontent.com/r-e-d-ant/pizza-store-static-v/master/assets/images/product4.webp",
+        "name": "Sicilian Pizza",
+        "price": 11,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada tempus elit id facilisis. Nullam a diam sit amet ex facilisis aliquet et eget tellus. Curabitur id porttitor tellus. Sed ac consequat tellus. Sed consequat neque nec ex placerat ultricies.",
+        "toppings": ["Tomatoes", "Garlic", "Oregano", "Extra virgin olive oil"],
+        "stock": 8
+      },
+      {
+        "id" : 4,
+        "image": "https://raw.githubusercontent.com/r-e-d-ant/pizza-store-static-v/master/assets/images/product5.webp",
+        "name": "Chicago Pizza",
+        "price": 14,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada tempus elit id facilisis. Nullam a diam sit amet ex facilisis aliquet et eget tellus. Curabitur id porttitor tellus. Sed ac consequat tellus. Sed consequat neque nec ex placerat ultricies.",
+        "toppings": ["Tomatoes", "Sliced mozzarella", "Basil", "Extra virgin olive oil"],
+        "stock": 2
+      },
+      {
+        "id" : 5,
+        "image": "https://raw.githubusercontent.com/r-e-d-ant/pizza-store-static-v/master/assets/images/product6.webp",
+        "name": "Spinach Pizza",
+        "price": 6,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada tempus elit id facilisis. Nullam a diam sit amet ex facilisis aliquet et eget tellus. Curabitur id porttitor tellus. Sed ac consequat tellus. Sed consequat neque nec ex placerat ultricies.",
+        "toppings": ["Tomatoes", "Provel cheese", "Oregano", "Sweeter tomato sauce"],
+        "stock": 13
+      },
+      {
+        "id" : 6,
+        "image": "https://raw.githubusercontent.com/r-e-d-ant/pizza-store-static-v/master/assets/images/product7.webp",
+        "name": "Thin Crust Pizza",
+        "price": 12,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada tempus elit id facilisis. Nullam a diam sit amet ex facilisis aliquet et eget tellus. Curabitur id porttitor tellus. Sed ac consequat tellus. Sed consequat neque nec ex placerat ultricies.",
+        "toppings": ["Tomatoes", "Garlic", "Oregano", "Extra virgin olive oil"],
+        "stock": 5
+      },
+      {
+        "id" : 7,
+        "image": "https://raw.githubusercontent.com/r-e-d-ant/pizza-store-static-v/master/assets/images/product8.webp",
+        "name": "White Clam Pie",
+        "price": 14,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada tempus elit id facilisis. Nullam a diam sit amet ex facilisis aliquet et eget tellus. Curabitur id porttitor tellus. Sed ac consequat tellus. Sed consequat neque nec ex placerat ultricies.",
+        "toppings": ["Tomatoes", "Sliced mozzarella", "Basil", "Extra virgin olive oil"],
+        "stock": 7
+      },
+      {
+        "id" : 8,
+        "image": "https://raw.githubusercontent.com/r-e-d-ant/pizza-store-static-v/master/assets/images/product9.webp",
+        "name": "Pepperoni Pizza",
+        "price": 6,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada tempus elit id facilisis. Nullam a diam sit amet ex facilisis aliquet et eget tellus. Curabitur id porttitor tellus. Sed ac consequat tellus. Sed consequat neque nec ex placerat ultricies.",
+        "toppings": ["Tomatoes", "Provel cheese", "Oregano", "Sweeter tomato sauce"],
+        "stock": 7
+      }
+    ],
+    "cart": [
+        {
+            "id" : 0,
+            "image": "https://raw.githubusercontent.com/r-e-d-ant/pizza-store-static-v/master/assets/images/product1.webp",
+            "name": "Pizza Marinara",
+            "price": 8,
+            "toppings": ["Tomatoes", "Garlic", "Oregano", "Extra virgin olive oil"]
+        }
+    ]
+}
