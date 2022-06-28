@@ -1,11 +1,7 @@
 
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const ProductList = ({ products }) => {
-
-    const location = useLocation();
-    const homeProducts = products.slice(0, 3);
-
     return ( 
         <div className="products">
             {products.map((product) => (
