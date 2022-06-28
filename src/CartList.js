@@ -2,9 +2,9 @@
 const CartList = ({ productsInCart }) => {
     return ( 
         <div className="products check-products">
-            {productsInCart.map((productInCart) => (
-                <div className="product" key={ productInCart.id }>
-                    <img data-src={ productInCart.image } alt={ productInCart.name } className="lazy"></img>
+            {productsInCart.map((productInCart, index) => (
+                <div className="product" key={ index }>
+                    <img src={ productInCart.image } alt={ productInCart.name } className="productImg"></img>
                     <div className="info">
                         <div className="name-price">
                             <h3 className="name">{ productInCart.name }</h3>
