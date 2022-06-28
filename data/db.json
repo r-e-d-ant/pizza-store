@@ -73,8 +73,8 @@
         "stock": 7
       },
       {
-        "id" : 9,
-        "image": "https://raw.githubusercontent.com/r-e-d-ant/pizza-store-static-v/master/assets/images/product10.webp",
+        "id" : 8,
+        "image": "https://raw.githubusercontent.com/r-e-d-ant/pizza-store-static-v/master/assets/images/product9.webp",
         "name": "Pepperoni Pizza",
         "price": 6,
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada tempus elit id facilisis. Nullam a diam sit amet ex facilisis aliquet et eget tellus. Curabitur id porttitor tellus. Sed ac consequat tellus. Sed consequat neque nec ex placerat ultricies.",
