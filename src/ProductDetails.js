@@ -41,7 +41,7 @@ const ProductDetails = () => {
                 <h2 className="section-title">Similar products</h2>
                 {error && <div>{ error }</div>}
                 {isPending && <div>Loading...</div>}
-                {similarProducts && <ProductList products={ similarProducts } />}
+                {similarProducts && <ProductList products={ similarProducts.filter((sP) => sP.id !== parseInt(id)).slice(0, 3) } />}
             </section>
         </div>
      );
