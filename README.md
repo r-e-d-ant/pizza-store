@@ -1,8 +1,6 @@
 # Pizza Store Website
 
-* Pizza Store Website built with React and Firebase
-
-* ```// Stopped working on it in middle of the development //```
+* Pizza Store Website built with React
 
 * Check it's static version <a href="https://github.com/r-e-d-ant/pizza-store-static-v">here</a>
 
