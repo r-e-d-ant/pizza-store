@@ -1,7 +1,19 @@
 
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const ProductList = ({ products }) => {
+    const [qty, setQty] = useState(1);
+
+    const increaseQty = () => {
+        setQty(qty + 1);
+    };
+    const decreaseseQty = () => {
+        if(qty > 1) {
+            setQty(qty - 1);
+        }
+    };
+
     return ( 
         <div className="products">
             {products.map((product) => (
@@ -19,11 +31,11 @@ const ProductList = ({ products }) => {
                         </div>
                         <div className="actions">
                             <div className="quantity">
-                                <i className='bx bxs-minus-circle'></i>
-                                <div className="qty-cont"><span>1</span></div>
-                                <i className='bx bxs-plus-circle'></i>
+                                <i className='bx bxs-minus-circle' onClick={decreaseseQty}></i>
+                                <div className="qty-cont"><span>{ qty }</span></div>
+                                <i className='bx bxs-plus-circle' onClick={increaseQty}></i>
                             </div>
-                            <button className="btn add-to-cart-btn">Add to cart</button>
+                            <Link to={`/products/${product.id}`}><button className="btn add-to-cart-btn">Add to cart</button></Link>
                         </div>
                     </div>
                 </div>
